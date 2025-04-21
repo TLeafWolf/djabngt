@@ -5,5 +5,7 @@ from . import views
 
 urlpatterns =[
     # path that takes in 3 arguments - path url(/pagename), function you want to run when you go to the url, and if you want to create seperate name for the function that the view can use
-    path('', views.post_list, name = 'post _list'),
+    path('', views.post_list, name='post_list'),
+    path('post/<int:pk>/', views.post_detail, name='post_detail'),
+    path('post/new/', views.post_new, name='post_new'),
 ]
