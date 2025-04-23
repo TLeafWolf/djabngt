@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # hey redirect all url traffic to the blogs url folder
-    path('', include('blog.urls'))
+    #hey redirect all url traffic to the blogs url folder
+    path('', include('blog.urls')),
 ]
