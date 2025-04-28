@@ -1,7 +1,13 @@
 
 header{
+    background-color: #C25100;
     display:block;
     visibility: visible;
+}
+body{
+    display:block;
+    visibility: visible;
+
 }
 .page_header{
     background-color: #C25100;
@@ -72,4 +78,12 @@ h4{
 .btn-secondary:hover {
     color: #FFFFFF;
     background-color: #C25100;
+}
+
+.btn-logout,
+.btn-logout:visited {
+    color: #C25100;
+    background: none;
+    border-color: #C25100;
+    margin-left: 15px;
 }
