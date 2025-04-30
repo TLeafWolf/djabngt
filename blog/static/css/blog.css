@@ -1,19 +1,8 @@
-
-header{
+.page-header {
     background-color: #C25100;
-    display:block;
-    visibility: visible;
-}
-body{
-    display:block;
-    visibility: visible;
-
-}
-.page_header{
-    background-color: #C25100;
-    margin-top:0 ;
-    margin-bottom:50px;
-    padding:20px 20px 20px 40px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
 }
 
 .page-header h1,
@@ -28,11 +17,12 @@ body{
 h1,
 h2,
 h3,
-h4{
+h4 {
     font-family: 'Lobster', cursive;
 }
-.date{
-    color:#828282;
+
+.date {
+    color: #828282;
 }
 
 .save {
@@ -53,6 +43,12 @@ h4{
     margin-right: 20px;
 }
 
+/* .top-menu .logout{
+    background-color: #FFFFFF;
+    color: #C25100;
+    border-color: #FFFFFF;
+
+} */
 .post {
     margin-bottom: 70px;
 }
@@ -73,6 +69,7 @@ h4{
     background: none;
     border-color: #C25100;
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .btn-secondary:hover {
@@ -80,10 +77,6 @@ h4{
     background-color: #C25100;
 }
 
-.btn-logout,
-.btn-logout:visited {
-    color: #C25100;
-    background: none;
-    border-color: #C25100;
-    margin-left: 15px;
+.comment{
+    margin: 20px 0px 20px 20px;
 }
